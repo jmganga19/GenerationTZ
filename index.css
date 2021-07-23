@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 1170px;
+    margin:0 auto;
+}
+header{
+    height: 100px;
+    position:fixed;  
+    z-index: 12;
+     background: #262626; 
+     width: 100%;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+    font-size: 30px;
+    font-family:'Roboto',sans-serif;
+    color: #ff6666;
+}
+nav{
+    float:right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    line-height: 100px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+nav a:hover{
+    background-color:#3e8e41;
+}
+nav a:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.welcome-text{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(charity.jpg);
+    background-size: cover;
+    -webkit-background-size:cover;
+    background-position: center center;
+}
+.welcome-text h2{
+    padding-top: 8%;
+    font-size: 50px;
+    font-family:Helvetica;
+    text-transform: uppercase;
+    color:#66ffd9;
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: aliceblue;
+    height: 1500px;
+}
+.content-area h2{
+    font-family:'Roboto',sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+    color:#262626;
+}
+.content-area p{
+    padding: 2% 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    font-size: 25px;
+}

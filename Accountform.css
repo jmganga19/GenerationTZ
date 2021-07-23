@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+    font-family:'Roboto',sans-serif;
+}
+.signup-box{
+    width: 380px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    margin-top:100px; 
+}
+.login-box{
+    width: 360px;
+    height: 270px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    cursor: pointer;
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(58, 52, 52) ;
+    color: white;
+    font-size: medium;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+
+}
+.button :hover{
+    background-color: seagreen;
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;  
+}
+p a{
+    color: rgb(10, 134, 41);
+}
+.donate{
+    font-size: medium;
+    font-family: 'Roboto',sans-serif;
+}
